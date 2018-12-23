@@ -1,0 +1,81 @@
+/* BEGINNING OF TAGS */
+body * {
+    font-family: sans-serif;
+}
+
+h1 {
+    margin: 20px;
+    font-size: 5em;
+    color: #3a589a;
+    text-align: center;
+}
+
+h3 {
+    font-weight: lighter;
+    margin: 0;
+    font-size: 25px;
+    text-align: center;
+    color: #191919;
+}
+
+span {
+    color: #191919;
+}
+
+a {
+    font-family: sans-serif;
+    color: #3a589a;
+}
+/* END OF TAGS */ 
+
+/* BEGINNING OF CLASSES */
+.header-block {
+    margin-top: auto;
+}
+.container {
+    background: #EBEBEB;
+    /* height: 500px; */
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding-left: 30px;
+    padding-right: 30px;
+    /* position: relative; */
+    padding-bottom: 25px;
+    box-shadow: 1px 3px 10px 0px #00000073;
+}
+
+.facebook-link {
+    margin-top: 100px;
+    display: inline-flex;
+    align-items: center;
+    font-size: 30px;
+}
+
+.fb-icon {
+    margin-left: 20px;
+    width: 40px;
+}
+
+.footer {
+    /* position: absolute; */
+    /* bottom: 20px; */
+    margin-top: auto;
+    text-align: center;
+}
+
+.footer-item {
+    display: inline-flex;
+    align-items: center;
+    font-size: 1em;
+    margin-right: 20px;
+}
+
+.footer-icon {
+    margin-right: 10px;
+    height: 18px;
+}
+/* END OF CLASSES */
